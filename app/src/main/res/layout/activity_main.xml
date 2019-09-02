@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <ImageButton
+        android:id="@+id/videoOnlineImageButton"
+        android:layout_width="68dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="62dp"
+        android:src="@mipmap/video_green" />
+
+    <ImageButton
+        android:id="@+id/cameraimagebutton"
+        android:layout_width="64dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/videoOnlineImageButton"
+        android:layout_marginStart="61dp"
+        android:src="@mipmap/camera_logo" />
+
+</RelativeLayout>
